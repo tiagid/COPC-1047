@@ -3,10 +3,11 @@
 # Income tax calculator
 
 
+
 #prompt user for their income
-income = float(input('what is your income? '))
+income = float(input('Enter the gross income: '))
 #prompt for number of dependants
-dependants = float(input("How many dependants do you have? "))
+dependants = float(input("Enter the number of dependents: "))
 #Calculate Income after deductions
 postDeductions = (income - (10000 + (3000*dependants)))
 #calculate and return income tax
